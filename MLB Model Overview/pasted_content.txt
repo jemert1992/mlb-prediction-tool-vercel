@@ -1,0 +1,28 @@
+127.0.0.1 - - [17/Apr/2025:23:11:32 +0000] "GET / HTTP/1.1" 200 34694 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+127.0.0.1 - - [17/Apr/2025:23:11:32 +0000] "GET /static/rating-styles.css HTTP/1.1" 200 0 "https://mlb-prediction-tool-2.onrender.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-17 23:11:32,299 - web_app - INFO - Getting available dates starting from 2025-04-17 23:11:32.299635
+2025-04-17 23:11:32,299 - web_app - INFO - Returning 7 available dates
+127.0.0.1 - - [17/Apr/2025:23:11:32 +0000] "GET /api/dates HTTP/1.1" 200 419 "https://mlb-prediction-tool-2.onrender.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-17 23:11:32,334 - web_app - INFO - Getting predictions with force_refresh=False, date_str=2025-04-17
+2025-04-17 23:11:32,340 - web_app - INFO - Parsed target_date: 2025-04-17 00:00:00
+2025-04-17 23:11:32,341 - web_app - INFO - Formatted date: 2025-04-17
+2025-04-17 23:11:32,341 - mlb_prediction_api - INFO - Refreshing MLB prediction data
+2025-04-17 23:11:32,341 - mlb_prediction_api - INFO - Cleared all cache
+2025-04-17 23:11:32,341 - mlb_stats_api - INFO - Cleared all cache
+2025-04-17 23:11:32,341 - web_app - ERROR - Error in get_predictions: 'MLBStatsAPI' object has no attribute 'get_games_for_date'
+2025-04-17 23:11:32,341 - web_app - INFO - Generating sample predictions for date 2025-04-17
+2025-04-17 23:11:32,341 - web_app - INFO - Generated 6 sample predictions
+127.0.0.1 - - [17/Apr/2025:23:11:32 +0000] "GET /api/predictions?date=2025-04-17 HTTP/1.1" 200 4656 "https://mlb-prediction-tool-2.onrender.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-17 23:11:33,981 - web_app - INFO - Rendering index page
+127.0.0.1 - - [17/Apr/2025:23:11:33 +0000] "GET / HTTP/1.1" 200 34694 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+127.0.0.1 - - [17/Apr/2025:23:11:34 +0000] "GET /static/rating-styles.css HTTP/1.1" 304 0 "https://mlb-prediction-tool-2.onrender.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-17 23:11:34,128 - web_app - INFO - Getting available dates starting from 2025-04-17 23:11:34.128743
+2025-04-17 23:11:34,128 - web_app - INFO - Returning 7 available dates
+127.0.0.1 - - [17/Apr/2025:23:11:34 +0000] "GET /api/dates HTTP/1.1" 200 419 "https://mlb-prediction-tool-2.onrender.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-17 23:11:34,139 - web_app - INFO - Getting predictions with force_refresh=False, date_str=2025-04-17
+2025-04-17 23:11:34,140 - web_app - INFO - Parsed target_date: 2025-04-17 00:00:00
+2025-04-17 23:11:34,140 - web_app - INFO - Formatted date: 2025-04-17
+2025-04-17 23:11:34,140 - web_app - ERROR - Error in get_predictions: 'MLBStatsAPI' object has no attribute 'get_games_for_date'
+2025-04-17 23:11:34,140 - web_app - INFO - Generating sample predictions for date 2025-04-17
+2025-04-17 23:11:34,140 - web_app - INFO - Generated 6 sample predictions
+127.0.0.1 - - [17/Apr/2025:23:11:34 +0000] "GET /api/predictions?date=2025-04-17 HTTP/1.1" 200 4656 "https://mlb-prediction-tool-2.onrender.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
